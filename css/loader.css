@@ -1,0 +1,54 @@
+.loader {
+    position: relative;
+    width: 50vw;
+    height: 30vh;
+    margin: 10% auto 0 ;
+    padding: 20px;
+}
+.loader__item {
+    position: absolute;
+    width: 101%;
+    height: 101%;
+    /* border: 5px solid blue; */
+    border-radius: 50%;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+}
+@keyframes move {
+    0%{
+        border: 95px solid blue;
+    }
+    100%{
+        border: 0px solid #01011061;
+    }
+}
+.pozdravleniya {
+    margin-top: 60px;
+    animation-name: display;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes display {
+    0%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.go__main {
+    display: block;
+    width: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 25px auto; 
+    text-align: center;
+    font-size: 25px;
+}

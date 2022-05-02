@@ -1,0 +1,71 @@
+.wrapper {
+  background-color: #d9d9f2;
+}
+.header {
+  margin-top: 5vh;
+}
+h1 {
+  text-align: center;
+  font-size: clamp(40px, 6vh, 15vh);
+  font-style: italic;
+  color: red;
+}
+.container {
+}
+.main {
+  flex: 1 1 auto;
+  /* display: flex;
+    justify-content: center; */
+}
+.vhod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+  margin: 11vh auto;
+}
+input {
+  display: block;
+  width: clamp(230px, 60vw, 600px);
+  border: 1px solid black;
+  height: clamp(40px, 7vh, 15vh);
+  text-align: center;
+  margin: 0 auto 5vh;
+  font-size: clamp(20px, 3vh, 10vh);
+}
+.checbox {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+   justify-content: center;
+}
+.input__checkbox{
+  display: block;
+  width: clamp(136px, 140px, 150px);
+  height: clamp(35px, 5vh, 15vh);
+  margin: 0;
+ 
+}
+.checbox h2 {
+  font-size: clamp(20px, 3vh, 26px);
+  margin-left: -35px;
+}
+button {
+  height: clamp(40px, 8vh, 15vh);
+  width: clamp(220px, 40vw, 480px);
+  display: block;
+  border: 2px solid #ea0b0b;
+  border-radius: 5vw;
+  margin: 3vh auto 1vh;
+  color: white;
+  background-color: #14ec14;
+  cursor: pointer;
+  font-size: clamp(21px, 5vh, 10vh);
+}
+button:hover {
+  background-color: indigo;
+}
+.footer {
+  background: #a6c5ed;
+  padding: 2vh;
+}
